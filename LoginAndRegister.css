@@ -1,0 +1,151 @@
+.container {
+    display: flex;
+    width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.info-section, 
+.form-section {
+    flex: 1; /* Make both sections equal size */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.info-section {
+    background-color: #193C6E;
+    color: white;
+}
+
+.form-section {
+    background-color: white;
+}
+
+/* Content wrapper for both sections */
+.info-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.form-content {
+    flex: 1;
+}
+
+/* Unified heading styles */
+.info-section h2,
+.form-section h2 {
+    margin: 0 0 1.5rem 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid currentColor;
+    line-height: 1.2;
+    text-align: center; /* Center the headings */
+}
+
+.info-section h2 {
+    color: white;
+}
+
+.form-section h2 {
+    color: #7A1220;
+}
+
+.info-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem; /* Consistent spacing */
+}
+
+/* Form styles */
+.form-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .2rem;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Button styles */
+.info-button,
+.register-button {
+    padding: 0.7rem;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 250px; /* Made buttons same width */
+    align-self: center;
+    margin-top: 2.4rem;
+}
+
+.info-button {
+    background-color: white;
+    color: black;
+}
+
+.register-button {
+    background-color: #193C6E;
+    color: white;
+}
+
+.info-button:hover,
+.register-button:hover {
+    text-decoration: underline;
+}
+
+.error-text {
+    color: #f87171;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #b7b7b7;
+    font-family: Arial, sans-serif;
+}
+
+.terms-link {
+    color: #7A1220;
+    text-decoration: none;
+}
+
+.terms-link:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.checkbox {
+    margin-bottom: 1rem;
+    text-align: center; /* Center the checkbox text */
+}
