@@ -1,6 +1,6 @@
 For some reason I had issues submitting but i realized a link could do the same thing.
 The following is my R Markup file in text which can be copied and pasted into your desired RStudio and ran.
-Alternativly you can download using the link below (reccomended i worked hard to make it functional)
+Alternativly you can download using the link below (recommended, i worked hard to make this functional)
 
 <a href="proj-4.Rmd">R Markup Download</a>
 
