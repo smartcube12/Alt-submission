@@ -6,7 +6,7 @@ Alternativly you can download using the link below
 <a href="proj-4.html">Html Download</a>
 
 
-\
+
 ---
 title: "Project 4"
 author: "Tyrese Walker"
@@ -273,4 +273,4 @@ The categories of the storms increase with temperature though at a very small ra
 DISCUSS REGRESSION 2 HERE
 There are more things changing due to the other variables introduced, with the other variables heat is not the only factor in deciding category as wind is much more significant
 
-\
+
